@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image {
+    font-family: 'Rubik', sans-serif;
+    background-image: url("C:\React\crimetrackingapplication\public\Images\c1.jpeg");
+    height: 713px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image1 {
+    font-family: 'Rubik', sans-serif;
+    background-image: url("C:\React\crimetrackingapplication\public\Images\detective.jpg");
+    height: 713px;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.childElement {
+    display: flex;
+}
+
+.child1 {
+    display: inline-block;
+    color: white;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.child2 {
+    display: inline-block;
+    height: 250px;
+    width: 500px;
+    margin-top: 150px;
+    margin-left: 400px;
+}
+
+.form {
+    height: 100%;
+    width: 50%;
+    margin-left: 25%;
+    background-color: white;
+    color: white;
+    border-radius: 20px;
+}
+
+.container1 {
+    margin-top: 150px;
+    padding: 20px;
+    width: 90%;
+    height: 25rem;
+    border-radius: 10px;
+    background-color: white;
+    border: 3px solid black;
+    margin-left: 70px;
+}
+
+.para {
+    color: black;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.word {
+    text-align: center;
+    background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.home{
+    z-index: -1;
+}
+
+.side{
+    z-index: -2;
+}
